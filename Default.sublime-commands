@@ -1,0 +1,22 @@
+[
+	{
+		"caption": "Switch Settings: Change Settings",
+		"command": "switch_settings_change_settings"
+	},
+	{
+		"caption": "Switch Settings: Delete Settings",
+		"command": "switch_settings_delete_settings"
+	},
+	{
+		"caption": "Switch Settings: Show Settings-List",
+		"command": "switch_settings_show_settings_list"
+	},
+	{
+		"caption": "Switch Settings: New Settings",
+		"command": "switch_settings_new_settings"
+	},
+	{
+		"caption": "Switch Settings: Rename Settigns",
+		"command": "switch_settings_rename_settings"
+	},
+]

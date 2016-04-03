@@ -1,0 +1,22 @@
+[
+	{
+		"keys": ["ctrl+alt+c"],
+		"command": "switch_settings_change_settings"
+	},
+	{
+		"keys": ["ctrl+alt+d"],
+		"command": "switch_settings_delete_settings"
+	},
+	{
+		"keys": ["ctrl+alt+s"],
+		"command": "switch_settings_show_settings_list"
+	},
+	{
+		"keys": ["ctrl+alt+n"],
+		"command": "switch_settings_new_settings"
+	},
+	{
+		"keys": ["ctrl+alt+r"],
+		"command": "switch_settings_rename_settings"
+	}
+]
