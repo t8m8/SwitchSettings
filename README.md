@@ -4,9 +4,14 @@ This Sublime Text package makes it possible to switch another settings (`User/Pr
 
 If you want to change settings depending on the situation, this package provides the function to store some settings and to quickly change these settings.
 
-![](switch_settings.gif)
+![](https://drive.google.com/uc?export=view&id=0BxLskIP5K7OJWlFRUnk5ZEpYYmM)
 
 ## Installation
+
+__With the Package Control__:
+
+- Open the Command Palette: `cmd + shift + p` or `ctrl + shift + p`
+- `Command Palette` > `Package Control: Install Package` > `Switch Settings`
 
 __With Git__:
 Clone this repository into `Packages/` folder of ST.
