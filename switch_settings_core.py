@@ -55,7 +55,7 @@ class SettingsWrapper():
 
 
 	def get_current_settings(self):
-		return self.settings.get(SettingsWrapper.SS_CURRENT_SETTINGS_NAME)
+		return self.settings.get(SettingsWrapper.SS_CURRENT_SETTINGS_NAME, 'Switch_Settings_Default')
 
 	def set_current_settings(self, name):
 		self.settings.set(SettingsWrapper.SS_CURRENT_SETTINGS_NAME, name)
@@ -63,7 +63,7 @@ class SettingsWrapper():
 
 
 	def get_settings(self):
-		return self.settings.get(SettingsWrapper.SS_SETTINGS_NAMES)
+		return self.settings.get(SettingsWrapper.SS_SETTINGS_NAMES, [])
 
 	def add_settings(self, name):
 		names = self.get_settings()
@@ -78,7 +78,7 @@ class SettingsWrapper():
 
 
 	def get_settings_contents(self):
-		return self.settings.get(SettingsWrapper.SS_SETTINGS_CONTENTS)
+		return self.settings.get(SettingsWrapper.SS_SETTINGS_CONTENTS, {})
 
 	def add_settings_content(self, name, item):
 		contents = self.get_settings_contents()
