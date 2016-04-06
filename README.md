@@ -4,7 +4,7 @@ This Sublime Text package makes it possible to switch another settings (`User/Pr
 
 If you want to change settings depending on the situation, this package provides the function to store some settings and to quickly change these settings.
 
-![](https://drive.google.com/uc?export=view&id=0BxLskIP5K7OJWlFRUnk5ZEpYYmM)
+![](http://i.imgur.com/Yu8hLtm.gif)
 
 ## Installation
 
