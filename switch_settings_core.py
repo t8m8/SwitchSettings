@@ -18,6 +18,11 @@ class SettingsWrapper():
 		if self._buf is None: return False
 
 		preferences = os.path.join(sublime.packages_path(), 'User', 'Preferences.sublime-settings')
+
+		if not os.path.exists(preferences):
+			with open(preferences, mode='w') as f:
+				pass
+
 		with open(preferences, mode='r') as f:
 			preferences_settings = sublime.decode_value(f.read())
 
